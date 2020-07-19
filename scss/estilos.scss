@@ -1,0 +1,16 @@
+//-------------------------
+//--- PATRON DE COLORES ---
+//-------------------------
+$texto: red;
+$principal: blue;
+$secundario: orange;
+
+.container{
+	border: 1px solid $texto;
+}
+.row{
+	border: 1px solid $principal;
+}
+.row>*{
+	border: 1px solid green;
+}
